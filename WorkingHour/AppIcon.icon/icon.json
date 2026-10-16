@@ -127,7 +127,7 @@
           "fill-specializations" : [
             {
               "value" : {
-                "automatic-gradient" : "srgb:0.68200,0.68200,0.68200,1.00000"
+                "automatic-gradient" : "display-p3:0.32472,0.71029,0.61865,1.00000"
               }
             },
             {
@@ -171,7 +171,7 @@
       "specular" : "inside",
       "translucency" : {
         "enabled" : true,
-        "value" : 0.8
+        "value" : 0.4
       }
     },
     {
