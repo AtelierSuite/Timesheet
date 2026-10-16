@@ -114,7 +114,7 @@
           "fill-specializations" : [
             {
               "value" : {
-                "automatic-gradient" : "display-p3:0.32472,0.71029,0.61865,1.00000"
+                "automatic-gradient" : "display-p3:1.00000,1.00000,1.00000,1.00000"
               }
             },
             {
@@ -165,9 +165,7 @@
       "blend-mode" : "normal",
       "layers" : [
         {
-          "fill" : {
-            "automatic-gradient" : "srgb:1.00000,1.00000,1.00000,1.00000"
-          },
+          "fill" : "automatic",
           "glass" : true,
           "hidden" : false,
           "image-name" : "Sheet.svg",
@@ -195,6 +193,7 @@
           ]
         }
       ],
+      "lighting" : "combined",
       "name" : "Sheet",
       "shadow" : {
         "kind" : "neutral",
