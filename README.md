@@ -1,4 +1,4 @@
-# Working Hour
+# Timesheet
 
 A simple timesheet app for contract/gig workers who need to submit a working hour report.
 

@@ -7,7 +7,7 @@
 
 import AppIntents
 
-/// Exposes clock in/out to Siri and Spotlight ("Clock in with Working Hour").
+/// Exposes clock in/out to Siri and Spotlight ("Clock in with Timesheet").
 struct WorkingHourAppShortcuts: AppShortcutsProvider {
     static var appShortcuts: [AppShortcut] {
         AppShortcut(

@@ -22,7 +22,7 @@ struct MoreView: View {
 
     var body: some View {
         NavigationStack {
-            MoreList(repoName: "katagaki/WorkingHour") {
+            MoreList(repoName: "AtelierSuite/Timesheet") {
                 Section {
                     NavigationLink("Workplace.Title") {
                         WorkplacesView()
