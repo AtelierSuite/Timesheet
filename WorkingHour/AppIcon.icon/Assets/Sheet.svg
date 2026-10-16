@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!--
+    The sheet the hours are kept on, anchored to the top left so the clock
+    can sit over its bottom right corner. The clock lives in a glass group of
+    its own, so the sheet stays whole and is seen through the clock's glass.
+    Drawn in white — Icon Composer tints and lights the layer, so the artwork
+    carries only shape and opacity.
+  -->
+  <g fill="#FFFFFF">
+    <path d="M244 196H644A48 48 0 0 1 692 244V652A48 48 0 0 1 644 700H244A48 48 0 0 1 196 652V244A48 48 0 0 1 244 196Z" opacity="0.32"/>
+  </g>
+</svg>

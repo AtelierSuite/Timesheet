@@ -1,4 +1,7 @@
 {
+  "features" : [
+    "specular-location"
+  ],
   "fill" : {
     "linear-gradient" : [
       "display-p3:0.14510,1.00000,0.70980,1.00000",
@@ -17,314 +20,200 @@
   },
   "groups" : [
     {
+      "blur-material" : 0.5,
+      "layers" : [
+        {
+          "fill" : {
+            "solid" : "srgb:1.00000,1.00000,1.00000,1.00000"
+          },
+          "glass" : true,
+          "hidden" : false,
+          "image-name" : "Hands.svg",
+          "name" : "Hands",
+          "position-specializations" : [
+            {
+              "value" : {
+                "scale" : 1,
+                "translation-in-points" : [
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "idiom" : "square",
+              "value" : {
+                "scale" : 1.15,
+                "translation-in-points" : [
+                  0,
+                  6
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.6
+      },
+      "specular" : "inside",
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.6
+      }
+    },
+    {
+      "blend-mode" : "normal",
+      "blur-material" : 0.3,
       "layers" : [
         {
           "fill-specializations" : [
             {
               "value" : {
-                "solid" : "gray:1.00000,1.00000"
+                "automatic-gradient" : "srgb:0.00000,0.00000,0.00000,1.00000"
               }
             },
             {
               "appearance" : "dark",
               "value" : {
-                "automatic-gradient" : "gray:1.00000,1.00000"
+                "solid" : "srgb:1.00000,1.00000,1.00000,1.00000"
               }
             }
           ],
-          "glass" : false,
-          "image-name" : "WorkingHour.009 3.png",
-          "name" : "WH",
-          "opacity-specializations" : [
+          "glass" : true,
+          "hidden" : false,
+          "image-name" : "Face.svg",
+          "name" : "Face",
+          "position-specializations" : [
             {
-              "value" : 0.25
+              "value" : {
+                "scale" : 1,
+                "translation-in-points" : [
+                  0,
+                  0
+                ]
+              }
             },
             {
-              "appearance" : "dark",
-              "value" : 0.6
-            },
-            {
-              "appearance" : "tinted",
-              "value" : 0.4
+              "idiom" : "square",
+              "value" : {
+                "scale" : 1.15,
+                "translation-in-points" : [
+                  0,
+                  0
+                ]
+              }
             }
-          ],
-          "position" : {
-            "scale" : 0.44,
-            "translation-in-points" : [
-              -219.55343749999997,
-              98.21875
-            ]
-          }
+          ]
         }
       ],
-      "lighting" : "combined",
-      "name" : "Time Card Marker",
+      "name" : "Clock",
       "shadow" : {
-        "kind" : "none",
+        "kind" : "neutral",
         "opacity" : 0.5
       },
-      "specular" : true,
+      "specular" : "inside",
       "translucency" : {
-        "enabled" : false,
+        "enabled" : true,
         "value" : 0.5
       }
     },
     {
+      "blur-material" : null,
       "hidden" : false,
       "layers" : [
         {
           "fill-specializations" : [
             {
               "value" : {
-                "automatic-gradient" : "gray:0.11941,1.00000"
+                "automatic-gradient" : "srgb:0.68200,0.68200,0.68200,1.00000"
               }
             },
             {
               "appearance" : "dark",
               "value" : {
-                "linear-gradient" : [
-                  "display-p3:0.14510,1.00000,0.70980,1.00000",
-                  "srgb:0.18039,0.62745,0.54510,1.00000"
-                ],
-                "orientation" : {
-                  "start" : {
-                    "x" : 0.6535403298322859,
-                    "y" : 0.11833265324064053
-                  },
-                  "stop" : {
-                    "x" : 0.4429678928677807,
-                    "y" : 0.7036556134894978
-                  }
-                }
-              }
-            },
-            {
-              "appearance" : "tinted",
-              "value" : {
-                "automatic-gradient" : "gray:0.00000,1.00000"
+                "solid" : "srgb:1.00000,1.00000,1.00000,1.00000"
               }
             }
           ],
-          "image-name" : "WorkingHour.008 3.png",
-          "name" : "Rect",
-          "opacity" : 1,
-          "position" : {
-            "scale" : 1.06,
-            "translation-in-points" : [
-              -136.1500000000001,
-              312.0250000000001
-            ]
-          }
+          "glass" : true,
+          "hidden" : false,
+          "image-name" : "Lines.svg",
+          "name" : "Lines",
+          "position-specializations" : [
+            {
+              "value" : {
+                "scale" : 1,
+                "translation-in-points" : [
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "idiom" : "square",
+              "value" : {
+                "scale" : 1.15,
+                "translation-in-points" : [
+                  0,
+                  0
+                ]
+              }
+            }
+          ]
         }
       ],
-      "name" : "Time Card Front",
-      "position" : {
-        "scale" : 1,
-        "translation-in-points" : [
-          0,
-          0
-        ]
-      },
       "shadow" : {
         "kind" : "neutral",
-        "opacity" : 1
+        "opacity" : 0
       },
+      "specular" : "inside",
       "translucency" : {
-        "enabled" : false,
-        "value" : 0.5
+        "enabled" : true,
+        "value" : 0.8
       }
     },
     {
-      "blur-material" : null,
+      "blend-mode" : "normal",
       "layers" : [
         {
-          "image-name" : "WorkingHour.009.png",
-          "name" : "Clock Hands",
-          "position" : {
-            "scale" : 0.92,
-            "translation-in-points" : [
-              7.939320654941184,
-              -3.8680480567591076
-            ]
-          }
-        },
-        {
-          "fill-specializations" : [
+          "fill" : {
+            "automatic-gradient" : "srgb:1.00000,1.00000,1.00000,1.00000"
+          },
+          "glass" : true,
+          "hidden" : false,
+          "image-name" : "Sheet.svg",
+          "name" : "Sheet",
+          "position-specializations" : [
             {
               "value" : {
-                "linear-gradient" : [
-                  "display-p3:0.34155,0.74414,0.55859,1.00000",
-                  "display-p3:0.44141,0.94629,0.67725,1.00000"
-                ],
-                "orientation" : {
-                  "start" : {
-                    "x" : 0.5,
-                    "y" : 0
-                  },
-                  "stop" : {
-                    "x" : 0.5,
-                    "y" : 0.7
-                  }
-                }
+                "scale" : 1,
+                "translation-in-points" : [
+                  0,
+                  0
+                ]
               }
             },
             {
-              "appearance" : "dark",
+              "idiom" : "square",
               "value" : {
-                "linear-gradient" : [
-                  "gray:0.00000,1.00000",
-                  "gray:0.28751,1.00000"
-                ],
-                "orientation" : {
-                  "start" : {
-                    "x" : 0.5,
-                    "y" : 0
-                  },
-                  "stop" : {
-                    "x" : 0.5,
-                    "y" : 0.7
-                  }
-                }
-              }
-            },
-            {
-              "appearance" : "tinted",
-              "value" : {
-                "linear-gradient" : [
-                  "gray:0.00000,1.00000",
-                  "gray:0.48692,1.00000"
-                ],
-                "orientation" : {
-                  "start" : {
-                    "x" : 0.5,
-                    "y" : 0
-                  },
-                  "stop" : {
-                    "x" : 0.5,
-                    "y" : 0.7
-                  }
-                }
+                "scale" : 1.15,
+                "translation-in-points" : [
+                  0,
+                  0
+                ]
               }
             }
-          ],
-          "glass" : false,
-          "image-name" : "WorkingHour.010.png",
-          "name" : "Circle 1",
-          "position" : {
-            "scale" : 0.77,
-            "translation-in-points" : [
-              0,
-              0
-            ]
-          }
-        },
-        {
-          "glass" : false,
-          "image-name" : "WorkingHour.010.png",
-          "name" : "Circle 2",
-          "position" : {
-            "scale" : 1,
-            "translation-in-points" : [
-              0,
-              0
-            ]
-          }
+          ]
         }
       ],
-      "name" : "Clock",
-      "position" : {
-        "scale" : 0.67,
-        "translation-in-points" : [
-          124,
-          -128
-        ]
-      },
-      "shadow" : {
-        "kind" : "neutral",
-        "opacity" : 1
-      },
-      "translucency" : {
-        "enabled" : false,
-        "value" : 0.5
-      }
-    },
-    {
-      "layers" : [
-        {
-          "fill-specializations" : [
-            {
-              "value" : {
-                "linear-gradient" : [
-                  "display-p3:0.00000,0.00000,0.00000,1.00000",
-                  "display-p3:0.20000,0.20000,0.20000,1.00000"
-                ],
-                "orientation" : {
-                  "start" : {
-                    "x" : 0.5,
-                    "y" : 0
-                  },
-                  "stop" : {
-                    "x" : 0.5,
-                    "y" : 0.7
-                  }
-                }
-              }
-            },
-            {
-              "appearance" : "dark",
-              "value" : {
-                "linear-gradient" : [
-                  "display-p3:0.31250,0.64062,0.55713,1.00000",
-                  "display-p3:0.31860,0.77111,0.57227,1.00000"
-                ],
-                "orientation" : {
-                  "start" : {
-                    "x" : 0.5,
-                    "y" : 0
-                  },
-                  "stop" : {
-                    "x" : 0.5,
-                    "y" : 0.7
-                  }
-                }
-              }
-            },
-            {
-              "appearance" : "tinted",
-              "value" : {
-                "linear-gradient" : [
-                  "gray:0.25000,1.00000",
-                  "gray:0.50000,1.00000"
-                ],
-                "orientation" : {
-                  "start" : {
-                    "x" : 0.5,
-                    "y" : 0
-                  },
-                  "stop" : {
-                    "x" : 0.5,
-                    "y" : 0.7
-                  }
-                }
-              }
-            }
-          ],
-          "image-name" : "WorkingHour.007 3.png",
-          "name" : "Rect",
-          "position" : {
-            "scale" : 1.06,
-            "translation-in-points" : [
-              -119.19000000000005,
-              264.3250000000004
-            ]
-          }
-        }
-      ],
-      "name" : "Time Card Back",
+      "name" : "Sheet",
       "shadow" : {
         "kind" : "neutral",
         "opacity" : 0.5
       },
+      "specular" : true,
       "translucency" : {
         "enabled" : true,
         "value" : 0.5

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!--
+    The clock face, set over the sheet's bottom right corner. Drawn solid
+    white so it holds up in dark mode; the hands sit in a layer above it.
+  -->
+  <circle cx="652" cy="636" r="188" fill="#FFFFFF"/>
+</svg>
