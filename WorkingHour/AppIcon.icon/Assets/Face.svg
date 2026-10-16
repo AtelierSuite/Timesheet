@@ -3,5 +3,5 @@
     The clock face, set over the sheet's bottom right corner. Drawn solid
     white so it holds up in dark mode; the hands sit in a layer above it.
   -->
-  <circle cx="652" cy="636" r="188" fill="#FFFFFF"/>
+  <circle cx="664" cy="648" r="188" fill="#FFFFFF"/>
 </svg>

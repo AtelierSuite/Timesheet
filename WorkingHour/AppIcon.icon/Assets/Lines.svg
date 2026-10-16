@@ -4,9 +4,9 @@
     Drawn in white; the layer is filled solid white in dark mode.
   -->
   <g fill="#FFFFFF">
-    <rect x="276" y="276" width="320" height="28" rx="14" opacity="0.8"/>
-    <rect x="276" y="348" width="320" height="28" rx="14" opacity="0.8"/>
-    <rect x="276" y="420" width="200" height="28" rx="14" opacity="0.8"/>
-    <rect x="276" y="492" width="160" height="28" rx="14" opacity="0.8"/>
+    <rect x="288" y="288" width="320" height="28" rx="14" opacity="0.8"/>
+    <rect x="288" y="360" width="320" height="28" rx="14" opacity="0.8"/>
+    <rect x="288" y="432" width="200" height="28" rx="14" opacity="0.8"/>
+    <rect x="288" y="504" width="160" height="28" rx="14" opacity="0.8"/>
   </g>
 </svg>

@@ -7,6 +7,6 @@
     carries only shape and opacity.
   -->
   <g fill="#FFFFFF">
-    <path d="M244 196H644A48 48 0 0 1 692 244V652A48 48 0 0 1 644 700H244A48 48 0 0 1 196 652V244A48 48 0 0 1 244 196Z" opacity="0.32"/>
+    <path d="M256 208H656A48 48 0 0 1 704 256V664A48 48 0 0 1 656 712H256A48 48 0 0 1 208 664V256A48 48 0 0 1 256 208Z" opacity="0.32"/>
   </g>
 </svg>
